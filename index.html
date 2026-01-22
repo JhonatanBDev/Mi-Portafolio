@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio | JhonatanBDev</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Tipografías similares al look retro/tech -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Glow decor -->
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+
+  <aside class="sidebar" aria-label="Navegación">
+    <div class="brand">
+      <div class="avatar-wrap">
+        <!-- Cambia src por tu logo -->
+        <img class="avatar" src="logo2.png" alt="Logo rostro estilo vector" onerror="this.style.display='none';document.querySelector('.avatar-fallback').style.display='grid';">
+        <div class="avatar-fallback" aria-hidden="true" style="display:none;">
+          <span>LK</span>
+        </div>
+      </div>
+
+      <div class="brand-text">
+        <div class="brand-name">JhonatanBDev</div>
+        <div class="brand-tag">Mi sitio Web </div>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a class="nav-link active" href="#sobre-mi" data-target="sobre-mi">SOBRE MI</a>
+      <a class="nav-link" href="#portafolio" data-target="portafolio">PORTAFOLIO</a>
+      <a class="nav-link" href="#educacion" data-target="educacion">EDUCACIÓN</a>
+      <a class="nav-link" href="#skills" data-target="skills">SKILLS</a>
+      <a class="nav-link" href="#contacto" data-target="contacto">CONTACTO</a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="mini">
+        <span class="dot"></span>
+        <span class="mono">Contacto:</span>
+      </div>
+      <div class="social">
+        <a href="https://github.com/JhonatanBDev" aria-label="GitHub">GH</a>
+        <a href="https://www.linkedin.com/in/JhonatanBrunoGC" aria-label="LinkedIn">in</a>
+        <a href="mailto:jhonatanguarachicallisaya@gmail.com" aria-label="Mail">@</a>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main" id="main">
+    <div class="sections" id="sections" role="region" aria-label="Secciones">
+      <!-- SOBRE MI -->
+      <section class="section" id="sobre-mi" data-index="0">
+        <div class="section-inner">
+          <h1 class="title">SOBRE MI</h1>
+          <p class="lead mono">
+            Hola bienvenidoos a mi sitio Web me llamo Jhonatan Bruno soy un estudiante de Economía e Ingeniería de Sistemas.
+            Me gusta ser autodidacta para aprender a mi ritmo los temas de mi interes cuento con buen trabajo en equipo, comunicación efectiva a la hora de desarrollar Software. 
+            Me interesa mucho los temas financieros y analisis de Sistemas tanto en la planeación y simulación por lo que trato de ver factibilidades a través de los datos, 
+            e implementado mejoras en visualización y mejora de procesos para apoyar la toma de decisiones.
+
+          </p>
+
+          <div class="callout">
+            <p class="callout-text">
+              ACTUALMENTE ESTUDIO Y BUSCO AMPLIAR MI CAMPO LABORAL EN EL MUNDO DEL DESARROLLO SOFTWARE Y ANÁLISIS FINANCIERO / ECONÓMICO.
+            </p>
+          </div>
+
+          <div class="links">
+            <a class="pill" href="mailto:jhonatanguarachicallisaya@gmail.com">
+              <span class="pill-dot"></span>
+              Escribime a <span class="mono strong">jhonatanguarachicallisaya@gmail.com</span>
+            </a>
+            <a class="pill" href="https://www.linkedin.com/in/JhonatanBrunoGC" target="_blank" rel="noreferrer">
+              Mirá mi experiencia en <span class="mono strong">LinkedIn</span>
+            </a>
+          </div>
+
+          <div class="meta">
+            <div class="meta-card">
+              <div class="meta-k">Ubicación</div>
+              <div class="meta-v mono">Latam / Bolivia Bo</div>
+            </div>
+            <div class="meta-card">
+              <div class="meta-k">Enfoque</div>
+              <div class="meta-v mono">UX · Backend · Data Analytics </div>
+            </div>
+            <!--<div class="meta-card">
+              <div class="meta-k">Stack</div>
+              <div class="meta-v mono>">HTML · CSS · JS</div>
+            </div>-->
+          </div>
+        </div>
+      </section>
+
+      <!-- PORTAFOLIO -->
+      <section class="section" id="portafolio" data-index="1">
+        <div class="section-inner">
+          <h1 class="title">PORTAFOLIO</h1>
+          <p class="lead mono"></p>Mis proyectos elaborados:</p>
+
+          <div class="grid">
+            <article class="card">
+              <div class="card-top">
+                <div class="badge">UX</div>
+                <div class="card-title">Landing Neon</div>
+              </div>
+              <p class="card-desc mono">
+                Landing con estética retro-tech, performance y accesibilidad.
+              </p>
+              <div class="card-actions">
+                <a class="btn" href="#" target="_blank" rel="noreferrer">Ver demo</a>
+                <a class="btn ghost" href="#" target="_blank" rel="noreferrer">Código</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-top">
+                <div class="badge">WEB</div>
+                <div class="card-title">Portfolio ScrollSnap</div>
+              </div>
+              <p class="card-desc mono">
+                Navegación por secciones con wheel + snap y flecha contextual.
+              </p>
+              <div class="card-actions">
+                <a class="btn" href="#" target="_blank" rel="noreferrer">Ver demo</a>
+                <a class="btn ghost" href="#" target="_blank" rel="noreferrer">Código</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-top">
+                <div class="badge">APP</div>
+                <div class="card-title">Panel Admin</div>
+              </div>
+              <p class="card-desc mono">
+                Dashboard con componentes, filtros y diseño consistente.
+              </p>
+              <div class="card-actions">
+                <a class="btn" href="#" target="_blank" rel="noreferrer">Ver demo</a>
+                <a class="btn ghost" href="#" target="_blank" rel="noreferrer">Código</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCACIÓN -->
+      <section class="section" id="educacion" data-index="2">
+        <div class="section-inner">
+          <h1 class="title">EDUCACIÓN</h1>
+          <div class="timeline">
+            
+             <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <div class="tl-title">UX Designer</div>
+                <div class="tl-meta mono">2022 — Actualidad · Enterprise Architect: UML  Unified Modeling Language - BPMN Model - NOTE UX DESIGNER User Experience / Ingeniería en Sistemas</div>
+                <div class="tl-desc mono">Planificador de la experiencia (los planos de uso) de un sistema o producto,
+                   apoyando a el Arquitecto de Bases de Datos y el Diseñador de Sistemas construyen la infraestructura sobre la cual se implementará esa experiencia. </div>
+              </div>
+            </div>
+
+            
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <div class="tl-title">Data Analytics</div>
+                <div class="tl-meta mono">2023 — Actualidad · Power Bi- Eviews - Stata -R / Carrera Economía</div>
+                <div class="tl-desc mono">Sacar análisis de datos persibiendo oportunidades y amenazas.</div>
+              </div>
+            </div>
+           
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <div class="tl-title">Producción / Gestión </div>
+                <div class="tl-meta mono">2024 — Actualidad · Experiencia en perfilar requerimientos de instituciones.</div>
+                <div class="tl-desc mono">Producción técnica, coordinación, comunicación.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="section" id="skills" data-index="3">
+        <div class="section-inner">
+          <h1 class="title">SKILLS</h1>
+          <p class="lead mono">Un mix equilibrado: técnica + producto + comunicación.</p>
+
+          <div class="chips">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">Responsive</span>
+            <span class="chip">Accesibilidad</span>
+            <span class="chip">UI Systems</span>
+            <span class="chip">Figma</span>
+            <span class="chip">Git</span>
+          </div>
+
+          <div class="bars">
+            <div class="bar">
+              <div class="bar-label mono">Frontend</div>
+              <div class="bar-track"><div class="bar-fill" style="width: 78%"></div></div>
+            </div>
+            <div class="bar">
+              <div class="bar-label mono">UI / Visual</div>
+              <div class="bar-track"><div class="bar-fill" style="width: 82%"></div></div>
+            </div>
+            <div class="bar">
+              <div class="bar-label mono">Comunicación</div>
+              <div class="bar-track"><div class="bar-fill" style="width: 90%"></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACTO -->
+      <section class="section" id="contacto" data-index="4">
+        <div class="section-inner">
+          <h1 class="title">CONTACTO</h1>
+          <p class="lead mono">¿Trabajamos juntos? Te respondo rápido.</p>
+
+          <div class="contact-card">
+            <div class="contact-row">
+              <div class="contact-k mono">Email</div>
+              <a class="contact-v mono" href="mailto:jhonatanguarachicallisaya@gmail.com">jhonatanguarachicallisaya@gmail.com</a>
+            </div>
+            <div class="contact-row">
+              <div class="contact-k mono">LinkedIn</div>
+              <a class="contact-v mono" href="https://www.linkedin.com/in/JhonatanBrunoGC" target="_blank" rel="noreferrer">linkedin.com/in/JhonatanBrunoGC</a>
+            </div>
+            <div class="contact-row">
+              <div class="contact-k mono">GitHub</div>
+              <a class="contact-v mono" href="https://github.com/JhonatanBDev" target="_blank" rel="noreferrer">github.com/JhonatanBDev</a>
+            </div>
+          </div>
+
+          <footer class="page-footer mono">
+            © <span id="year"></span> · Hecho por Jhonatan Bruno.
+          </footer>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Flecha fija (subir/bajar) -->
+  <button class="scroll-indicator" id="scrollIndicator" aria-label="Bajar">
+    <span class="arrow" aria-hidden="true"></span>
+    <span class="hint mono" id="scrollHint">BAJAR</span>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
